@@ -1,5 +1,5 @@
 rd /s /q build
 mkdir build
 cd build
-conan install ..
+conan install .. -s compiler.version=16
 pause
